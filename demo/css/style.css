@@ -1,0 +1,189 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+/* html,body{ 
+	width:100%;
+	height:100%;
+	background:#111;
+} */
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+} */
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+  position: relative;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+ #particles-js{
+   width: 100%;
+  height: 1950px; 
+  background-color:#F205CB; 
+   background-image: url('');
+  background-size: cover; 
+  position: absolute;
+  z-index: 0;
+  /* background-position: 50% 50%; */
+ }
+
+*{
+  --RosaFluix : rgba(255, 144, 200, 0.85);
+  --Rosa : #F205CB;
+  --Lila :#AB05F2;
+  --Blau : #4E49F2;
+  --Cel: #3D8BF2;
+  
+ 
+}
+/* f1c4f2 */
+
+
+@font-face {
+  font-family:peradaban ;
+  src: url(batman_forever/batmfa__.ttf);
+}
+@font-face {
+font-family: heading;
+src: url(heading_now/HeadingNowTrial-54Regular.ttf);
+}
+h1{
+ font-family: peradaban;
+ font-size: 3em;
+color:var(--Blau) ;
+ position: relative;
+margin-left: 280px;
+
+}
+.caracteristiques h2{
+font-family: peradaban;
+font-size: 2em;
+color:var(--Blau) ;
+position: relative;
+width: auto;
+margin-left: 240px;
+
+}
+.impacte h2{
+font-family: peradaban;
+font-size: 2em;
+color:var(--Blau) ;
+position: relative;
+width: auto;
+margin-left: 30px;
+
+}
+p{
+font-family: heading;
+color: black;
+padding: 10px;
+}
+.impacte{
+color: black;
+font-family: heading;
+}
+.caracteristiques{
+color: black;
+font-family: heading;
+}
+
+.txtp{
+margin-top: -1850px;
+margin-left: 12%;
+background: var(--RosaFluix);
+width: 1000px;
+padding: 60px;
+border-radius: 120px;
+position: absolute;
+height: 1000px;
+
+/* background-color: rgba(0, 0, 0, 0); */
+
+}
+.num{
+font-family: 'Times New Roman', Times, serif;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px var(--RosaFluix);
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: var(--RosaFluix);
+border-radius: 10px;
+} 
+
+.tot{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.conclusio{
+  font-family: peradaban;
+font-size: 2em;
+color:var(--Blau) ;
+position: relative;
+width: auto;
+margin-left: 30px;
+}
